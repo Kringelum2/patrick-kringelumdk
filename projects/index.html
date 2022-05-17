@@ -1,38 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Patrick Kringelum | Projects</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Patrick Kringelum | Website</title>
-</head>
-
-<body>
-
-    <div class="fp-wrapper">
-        
-        <div class="fp-filter">
-            
-        </div>
-        <div class="fp-content-wrapper">
-
+  <body>
+    <div class="page-wrapper">
+      <div class="page-content-wrapper">
         <div class="nav-bar">
-            <nav>
-                <ul>
-                    <li><a class="nav-item" href="/">HOME</a></li>
-                    <li><a class="nav-item" href="/projects">PROJECTS</a></li>
-                    <li><a class="nav-item" href="/about">ABOUT</a></li>
-                    <li><a class="nav-item" href="/contact">CONTACT</a></li>
-                </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li><a class="nav-item" href="/">HOME</a></li>
+              <li><a class="nav-item" href="/projects/">PROJECTS</a></li>
+              <li><a class="nav-item" href="/about/">ABOUT</a></li>
+            </ul>
+          </nav>
         </div>
 
+        <div class="page-content">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <a
+              target="_blank"
+              class="project-click"
+              href="http://moranti.patrick-kringelum.dk"
+            >
+              <div class="project">
+                <div class="project-content">
+                  <img src="/assets/images/moranti.png" alt="project-image" />
+                  <h4>Moranti</h4>
+                  <p>
+                    Developed as 3rd semester exam project, in cooperation with
+                    Moranti Services A/S. The technologies used are html, css
+                    and javascript as the frontend, and Java Spring as the
+                    backend API, with MySQL for the database. In the development
+                    workflow we used the Xtreme programming methodology and
+                    Scrum.
+                  </p>
+                </div>
+                <span class="project-link"
+                  >Go to project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </a>
+
+            <a
+              target="_blank"
+              class="project-click"
+              href="http://nordic-motorhomes.patrick-kringelum.dk"
+            >
+              <div class="project">
+                <div class="project-content">
+                  <img
+                    src="/assets/images/nordic-motorhomes.png"
+                    alt="project-image"
+                  />
+                  <h4>Nordic Motorhome Rental</h4>
+                  <p>
+                    Developed as a 2nd semester exam project, the technologies
+                    used are Java Spring as frontend and backend, MySQL for the
+                    database. The application was tested using JUnit.
+                  </p>
+                </div>
+                <span class="project-link"
+                  >Go to project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-
-    <script src="assets/scripts/global.js"></script>
-</body>
-
+    <script src="/assets/scripts/global.js"></script>
+  </body>
 </html>
